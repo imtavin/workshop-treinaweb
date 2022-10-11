@@ -36,4 +36,4 @@ frontend/*.tsbuildinfo
 frontend/next-env.d.ts
 
 #py lib
-/backend/.venv
+/backend/.venv/
