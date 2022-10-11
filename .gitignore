@@ -35,5 +35,27 @@ frontend/.vercel
 frontend/*.tsbuildinfo
 frontend/next-env.d.ts
 
-#py lib
-/backend/.venv/
+# Byte-compiled / optimized / DLL files
+backend/*/__pycache__/
+
+# Django stuff:
+backend/*.log
+backend/local_settings.py
+backend/db.sqlite3
+backend/db.sqlite3-journal
+
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+backend/.venv/
+.venv
+backend/venv/
+backend/venv.bak/
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
